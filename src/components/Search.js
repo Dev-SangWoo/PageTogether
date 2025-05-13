@@ -197,18 +197,11 @@ const Search = ({myBooks, setMyBooks}) => {
         try {
             // 알라딘 API 호출 - CORS 우회 프록시 사용
             const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
-            const TTB_KEY = process.env.REACT_APP_ALADIN_API_KEY; // 환경 변수에서 API 키 가져오기
+            const TTB_KEY = process.env.REACT_APP_ALADIN_API_KEY || 'ttbtkddn10120943001'; // 환경 변수에서 API 키 가져오기
             const apiUrl = 'http://www.aladin.co.kr/ttb/api/ItemSearch.aspx';
             
-            // API 키가 없는 경우 더미 데이터 사용
-            if (!TTB_KEY) {
-                console.warn('알라딘 API 키가 설정되지 않았습니다. 더미 데이터를 사용합니다.');
-                setError('API 키가 설정되지 않았습니다. 테스트 데이터를 사용합니다.');
-                setSearchResults(dummyBooks);
-                setUseDummyData(true);
-                setLoading(false);
-                return;
-            }
+            // API 키 로드 상태 기록
+            console.log('알라딘 API 키 환경 변수 사용:', !!process.env.REACT_APP_ALADIN_API_KEY);
             
             const params = {
                 TTBKey: TTB_KEY,

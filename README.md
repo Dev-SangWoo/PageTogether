@@ -10,6 +10,14 @@
 ```
 # 알라딘 API 키
 REACT_APP_ALADIN_API_KEY=your_aladin_api_key_here
+
+# Firebase 설정
+REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+REACT_APP_FIREBASE_PROJECT_ID=your_firebase_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+REACT_APP_FIREBASE_APP_ID=your_firebase_app_id
 ```
 
 모든 환경 변수는 `REACT_APP_` 접두사로 시작해야 합니다.

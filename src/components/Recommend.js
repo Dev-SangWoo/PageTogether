@@ -304,13 +304,10 @@ const Recommend = () => {
         
         try {
             // 알라딘 API 키 (환경 변수에서 가져옴)
-            const TTB_KEY = process.env.REACT_APP_ALADIN_API_KEY;
+            const TTB_KEY = process.env.REACT_APP_ALADIN_API_KEY || 'ttbtkddn10120943001';
             
-            // API 키가 없는 경우 더미 데이터만 사용
-            if (!TTB_KEY) {
-                console.warn('알라딘 API 키가 설정되지 않았습니다. 더미 데이터를 사용합니다.');
-                return;
-            }
+            // API 키 로드 상태 기록
+            console.log('알라딘 API 키 환경 변수 사용:', !!process.env.REACT_APP_ALADIN_API_KEY);
             
             // 다양한 검색 옵션과 카테고리
             const queryOptions = [
