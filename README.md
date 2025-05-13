@@ -6,6 +6,8 @@
 
 Page Together는 사용자가 자신의 독서 활동을 관리하고 추적할 수 있는 플랫폼입니다. 도서 검색, 개인 서재 관리, 독서 모임 참여 등 다양한 기능을 제공합니다.
 
+<img src="https://github.com/user-attachments/assets/1936ceb5-6b20-453f-b964-1185c06aa3da" width="500">
+
 
 ![Image](https://github.com/user-attachments/assets/1936ceb5-6b20-453f-b964-1185c06aa3da){: width="200px" height="400px"}
 
