@@ -5,13 +5,12 @@
 ## 소개
 
 Page Together는 사용자가 자신의 독서 활동을 관리하고 추적할 수 있는 플랫폼입니다. 도서 검색, 개인 서재 관리, 독서 모임 참여 등 다양한 기능을 제공합니다.
-![Image](https://github.com/user-attachments/assets/1936ceb5-6b20-453f-b964-1185c06aa3da)
+![Image]()
+<img src="https://github.com/user-attachments/assets/1936ceb5-6b20-453f-b964-1185c06aa3da  width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/11a68de8-5605-4219-857f-48b94f1b14d0  width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/a60e3d0a-63fa-4fc0-96e9-a0b0e0d5daeb  width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/17057feb-05d0-4d02-ad64-244e92ca89a5  width="200" height="400"/>
 
-![Image](https://github.com/user-attachments/assets/11a68de8-5605-4219-857f-48b94f1b14d0)
-
-![Image](https://github.com/user-attachments/assets/a60e3d0a-63fa-4fc0-96e9-a0b0e0d5daeb)
-
-![Image](https://github.com/user-attachments/assets/17057feb-05d0-4d02-ad64-244e92ca89a5)
 
 ## 주요 기능
 
