@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Page Together App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+도서 관리 및 독서 활동 추적을 위한 React 애플리케이션입니다.
+
+## 환경 변수 설정
+
+이 프로젝트는 외부 API와 통신하기 위해 환경 변수를 사용합니다. 
+다음과 같이 프로젝트 루트에 `.env` 파일을 생성하고 필요한 API 키를 설정해주세요:
+
+```
+# 알라딘 API 키
+REACT_APP_ALADIN_API_KEY=your_aladin_api_key_here
+```
+
+모든 환경 변수는 `REACT_APP_` 접두사로 시작해야 합니다.
 
 ## Available Scripts
 
